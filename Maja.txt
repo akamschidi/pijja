@@ -1,0 +1,47 @@
+public class BasePizza implements Pizza{
+    
+    int total = 0;
+    int vegan = 400;
+    int nonVegan = 500;
+    int cheese = 50; 
+    int pepperoni = 70;
+
+        
+    
+
+@Override
+    public void addCheese(){
+        // PizzaDetails details = new PizzaDetails();
+        System.out.println("You Added Cheese To Your Order");
+        int newBalance = total + cheese + vegan;
+        System.out.println(newBalance);
+    }
+
+@Override
+    public void pepperoni(){
+
+        System.out.println("You Added Pepperoni To Your Order");
+        int newBalance = total + cheese + vegan;
+        System.out.println(newBalance);
+
+    }
+@Override
+
+    public void blackOlives(){
+
+    }
+
+@Override
+    public void sausage(){
+
+    }
+
+@Override
+    public void takeout(){
+
+    }
+
+  
+}
+    
+

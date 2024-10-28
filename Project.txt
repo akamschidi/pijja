@@ -1,0 +1,24 @@
+
+Create a pizza ordering project. the pizza has the BASE and PREMIUM 
+pizza options. 
+
+The BASE pizza has the VEGAN and NON-VEGAN options. The VEGAN option costs
+ N300 and NON-VEGAN costs N400. Just the pizza alone... But the customer has
+the option to add other toppings like: 
+. cheese: N50
+. pepperoni: N70
+. black olives: N50
+. sausage: N100
+. takout packaging: N30
+
+The PREMIUM pizza has the VEGAN N600 and NON-VEGAN N800 options too.
+Every PREMIUM pizza option comes with all the above add-ons automatically,
+minus the takout packaging, which the customer can add. 
+
+Solution:
+Pizza details class: contains the prices for all the above. 
+Pizza Interface with the different add-ons as methods.
+classes of base and premium pizzas will implement the pizza Interface.
+The pizza classes will define the business logics of add-ons.
+The main method with switch statements for the customer to select
+and enter options. 
